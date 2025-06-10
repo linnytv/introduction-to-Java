@@ -14,5 +14,6 @@ public class towersofhanoi {
         Scanner scanner = new Scanner(System.in);
         int disks= scanner.nextInt();
         hanoiTowers(disks,'A','B','C');
+        scanner.close();
     }
 }
